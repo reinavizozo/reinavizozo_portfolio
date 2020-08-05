@@ -2,7 +2,7 @@
 header {
   display: flex;
   
-  margin-bottom: 20px;
+  margin-bottom: 10px;
  
 }
 
@@ -23,25 +23,33 @@ header nav ul {
 }
 
 header nav ul li a {
-  margin: 20px 5px 20px 5px;
+  margin: 5px 5px 5px 5px;
 }
 
 header nav ul li:last-child a {
   margin-right: 0;
 }
 
+fieldset{
+  margin: 0;
+  border-radius: 5px;
+  padding: 0;
+}
 
+legend {
+  background-color:;
+  color:;
+  padding: 3px 3px;
+  border-radius: 6px;
+  font-family: cursive;
+  font-size: 18px;
+}
 
 /* General Html style*/
 header, footer {
   background-color: #EEC8E0 ;
   border: 1px solid #392F5A; /* this will draw a border or box my header and footer */
 }
-
-.placeholder-img {
-  width: 100% ;
-}
-
 
 .list-inside li {
   list-style-position: inside;
@@ -51,6 +59,10 @@ header, footer {
   height: auto;
   width: 90% ;
   margin: 10%
+}
+
+.placeholder-img {
+  width: 90% ;
 }
 
 h2{
@@ -67,10 +79,10 @@ h1, nav, h2, h3, p, main{
 }
 
 
-a:link {color: white ; text-decoration: none; }
-a:visited {color: #392F5A ; }
-a:hover {color: rgb(66, 161, 125) ; }
-a:active {color: #F092DD; }
+a:link {color: #392F5A; text-decoration: none; font-size: 16px; }
+a:visited {color: white; }
+a:hover {color:#392F5A ; }
+a:active {color: white; }
 
 hr{
   height: 2px;
@@ -165,3 +177,4 @@ form button {
     flex-direction: row;
   }
 }
+
