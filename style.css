@@ -38,6 +38,11 @@ header, footer {
   border: 1px solid #392F5A; /* this will draw a border or box my header and footer */
 }
 
+.placeholder-img {
+  width: 100% ;
+}
+
+
 .list-inside li {
   list-style-position: inside;
 }
